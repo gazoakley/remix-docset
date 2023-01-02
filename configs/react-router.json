@@ -1,0 +1,22 @@
+{
+  "docsetName": "react-router",
+  "markdownPath": "./sources/react-router/docs",
+  "iconPath": "./icons/react-router.png",
+  "baseUrl": "https://reactrouter.com/en/main/",
+  "types": {
+    "components/.*": "Component",
+    "fetch/.*": "Function",
+    "guides/.*": "Guide",
+    "hooks/.*": "Hook",
+    "route/.*": "Attribute",
+    "router-components/.*": "Component",
+    "routers/picking-a-router.md": "Guide",
+    "routers/create-.*": "Function"
+  },
+  "plist": {
+    "CFBundleIdentifier": "react-router",
+    "CFBundleName": "React Router",
+    "DocSetPlatformFamily": "react-router",
+    "isDashDocset": true
+  }
+}

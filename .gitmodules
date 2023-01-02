@@ -1,0 +1,6 @@
+[submodule "remix"]
+	path = sources/remix
+	url = https://github.com/remix-run/remix.git
+[submodule "react-router"]
+	path = sources/react-router
+	url = https://github.com/remix-run/react-router.git

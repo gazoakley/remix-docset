@@ -1,0 +1,18 @@
+{
+  "name": "remix-docset",
+  "version": "1.0.0",
+  "description": "Remix/React Router Docset for Dash",
+  "main": "dashify.js",
+  "scripts": {
+    "build:react-router": "node dashify.js ./configs/react-router.json",
+    "build:remix": "node dashify.js ./configs/remix.json",
+    "clean": "rm -rf *.docset"
+  },
+  "author": "Gareth Oakley <gaz@gazoakley.com>",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^8.0.1",
+    "debug": "^4.3.4",
+    "marked": "^4.2.5"
+  }
+}

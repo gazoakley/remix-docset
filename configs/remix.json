@@ -1,0 +1,20 @@
+{
+  "docsetName": "remix",
+  "markdownPath": "./sources/remix/docs",
+  "iconPath": "./icons/remix.png",
+  "baseUrl": "https://remix.run/docs/en/v1/",
+  "types": {
+    "components/.*": "Component",
+    "file-conventions/.*": "File",
+    "guides/.*": "Guide",
+    "hooks/.*": "Hook",
+    "route/.*": "Attribute",
+    "tutorials/.*": "Guide"
+  },
+  "plist": {
+    "CFBundleIdentifier": "remix",
+    "CFBundleName": "Remix",
+    "DocSetPlatformFamily": "remix",
+    "isDashDocset": true
+  }
+}
